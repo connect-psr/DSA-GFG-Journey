@@ -19,7 +19,7 @@ The problems are categorized by level for easier navigation:
 - **Easy**  
 - **Medium**  
 - **Hard**
-- 
+  
 Each folder contains Java files with the problem name as the file name and comments explaining the approach.
 
 ---
