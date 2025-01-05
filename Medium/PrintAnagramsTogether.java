@@ -1,6 +1,6 @@
 import java.util.*;
 
-class SolutionM1{
+class Solution{
 public ArrayList<ArrayList<String>> anagrams(String[] arr) {
         ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
     
@@ -28,7 +28,7 @@ public ArrayList<ArrayList<String>> anagrams(String[] arr) {
 
 public class PrintAnagramsTogether{
     public static void main(String[] args){
-        SolutionM1 solution = new SolutionM1();
+        Solution solution = new Solution();
         String[] arr = {"cat", "dog", "tac", "god", "act"};
         
         ArrayList<ArrayList<String>> result = solution.anagrams(arr);
