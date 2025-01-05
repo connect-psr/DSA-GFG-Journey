@@ -1,4 +1,6 @@
-class Solution{
+import java.util.*;
+
+class SolutionM1{
 public ArrayList<ArrayList<String>> anagrams(String[] arr) {
         ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
     
@@ -24,8 +26,15 @@ public ArrayList<ArrayList<String>> anagrams(String[] arr) {
     }
 }
 
-public class PrintAnagramsTogether {
-    public static void main(String[] args) {
-        // Test the solution
+public class PrintAnagramsTogether{
+    public static void main(String[] args){
+        SolutionM1 solution = new SolutionM1();
+        String[] arr = {"cat", "dog", "tac", "god", "act"};
+        
+        ArrayList<ArrayList<String>> result = solution.anagrams(arr);
+        
+        for (ArrayList<String> group : result) {
+            System.out.println(group);
+        }
     }
 }
