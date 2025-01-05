@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class SolutionX{
+class SolutionH1{
     static int maxLength(String S){
         Stack<Integer> stack = new Stack<>();
         
@@ -31,10 +31,10 @@ class SolutionX{
     }
 }
 
-public class LongestValidParentheses {
-    public static void main(String[] args) {
+public class LongestValidParentheses{
+    public static void main(String[] args){
         String S = "(()))())(";
-        System.out.println(SolutionX.maxLength(S)); // Output the length of the longest valid parentheses
+        System.out.println(SolutionH1.maxLength(S)); // Output the length of the longest valid parentheses
     }
 }
 
